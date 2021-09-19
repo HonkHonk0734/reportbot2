@@ -58,7 +58,7 @@ class MyClient(discord.Client):
                 report.append(string_date)
                 ws.append(report)
                 wb.save('test.xlsx')
-                channel = client.get_channel(889217065083346965)
+                channel = client.get_channel()
                 print(mentiond_user)
                 await channel.send('a new report has been made.\n'
                                    'The accused is: ' + mentiond_user + "\n"
@@ -66,26 +66,6 @@ class MyClient(discord.Client):
                                    "and the date that is was made was: " + string_date + ".")
                 await message.author.send('Your report has been send wait for the moderators to review it')
                 await message.channel.send('report has been made')
-
-@bot.command()
-async def displayembed():
-    print('embed')
-    embed = discord.Embed(
-        title='Title',
-        description="this is a discription",
-    )
-
-    embed.set_footer(text="this is an footer")
-    embed.set_image(url='https://i.imgur.com/KiaZybi.png')
-    embed.set_thumbnail(url='https://i.imgur.com/KiaZybi.png')
-    embed.set_thumbnail(url='Honkhonk0734',
-                        icon_url='https://cdn.discordapp.com/avatars/710433019407761498/751a3443d2c2d8cc2c5744acecc2132a.webp?size=128')
-    embed.add_field(name='Fieldname', value="field value", inline=False)
-    embed.add_field(name='Fieldname', value="field value", inline=True)
-    embed.add_field(name='Fieldname', value="field value", inline=True)
-
-    await client.say(embed=embed)
-
 
 
 wb.save('reported.xlsx')
