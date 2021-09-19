@@ -4,7 +4,7 @@ from discord.ext import commands
 import datetime as dt
 
 
-Token = 'ODg4MDYxNjQ4OTA3MTQ5MzMz.YUNN3A.obsdIOAfqFcCnFINdvdz47nR7MY'
+Token = ''
 
 wb = load_workbook('reported.xlsx')
 ws = wb.active
