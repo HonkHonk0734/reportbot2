@@ -48,10 +48,11 @@ now that we have installed git we can clone the repo
     
     git clone https://github.com/HonkHonk0734/reportbot2.git
     
-    now open excel or libre office calc or a program like that can open and edit .xlsx files and make one in the program directory. this file needs to be empty.
-    so in libre office do file>saveas>save ass xlsx microsoft office 2007-365 and save it.
+now open excel or libre office calc or a program like that can open and edit .xlsx files and make one in the program directory. this file needs to be empty.
+so in libre office do file>saveas>save ass xlsx microsoft office 2007-365 and save it.
     
-    now just run main.py by doing 
+now just run main.py by doing
+    
 .. code:: sh
     #linux/Windows/MacOs
     cd reportbot2/
