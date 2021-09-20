@@ -42,6 +42,7 @@ now that we have installed the right libraries we need to install git to clone t
     #windows
     https://git-scm.com/download/win
     
+    
     now that we have installed git we can clone the repo
     
 .. code:: sh
