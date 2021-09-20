@@ -49,7 +49,6 @@ Running
 ----------
 
 now just run main.py by doing
-    
 .. code:: sh
     #linux/Windows/MacOs
     cd reportbot2/
