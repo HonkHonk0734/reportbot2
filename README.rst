@@ -3,12 +3,6 @@ Reportbot2
 
 A bot that allow members to report bots in discord and saves them to a spreadsheet.
 
-The Future of discord.py
---------------------------
-
-
-
-
 
 Installing
 ----------
@@ -50,7 +44,10 @@ now that we have installed git we can clone the repo
     
 now open excel or libre office calc or a program like that can open and edit .xlsx files and make one in the program directory. this file needs to be empty.
 so in libre office do file>saveas>save ass xlsx microsoft office 2007-365 and save it.
-    
+
+Running
+----------
+
 now just run main.py by doing
     
 .. code:: sh
