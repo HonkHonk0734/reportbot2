@@ -50,6 +50,7 @@ Running
 
 now just run main.py by doing
 .. code:: sh
+
     #linux/Windows/MacOs
     cd reportbot2/
     python3 main.py
