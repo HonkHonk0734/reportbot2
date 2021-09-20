@@ -42,6 +42,13 @@ now that we have installed git we can clone the repo
     
     git clone https://github.com/HonkHonk0734/reportbot2.git
     
+Configuring
+----------
+first go to Discord.com/developers and create an new application then go to it then go to bot>create bot. once you have done that
+go to the folder that you created by git cloning. as you see there is an file named main.py open that with your favorite text editor.
+on line 7 you wil see Token = '' between those you need to paste your discord bot token. so got to discord.com/developers go to your application and click on bot now under token you see copy and reveal click on copy and paste it between Token = '<here>'. now go to your discord server where you want the bot be and make a staff channel for reports and turn on developer mode in settings and right-click on the reports channel and copy channel id and paste it on line 61 between 
+channel = client.get_channel(<here>) exaple = channel = client.get_channel(858635125184659477) and that is all. just run the bot now
+
 
 Running
 ----------
